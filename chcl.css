@@ -10,6 +10,13 @@
     cursor: pointer;
 }
 
+.gb{ min-height:90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Universite_henrichristophe.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 .savoir:hover {
     border: 1px white solid;
     background:blue;
@@ -32,8 +39,19 @@
     font-size: 14px;
 }
 
+a {
+    text-decoration: none;
+    list-style: none;
+}
 
-@media (min-width: 576px) { 
+
+@media (min-width: 768px) { 
+    .text-box {
+        position: absolute;
+        top: 60%;
+    }
+
+
     .h1{
         font-size: 20px;
     }
