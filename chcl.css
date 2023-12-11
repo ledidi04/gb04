@@ -17,6 +17,24 @@
     background-size: cover;
 }
 
+footer{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Universite_henrichristophe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer p{
+    color: white;
+}
+
+footer h6{
+    color: white;
+}
+
+footer i{
+    color: white;
+}
+
 .savoir:hover {
     border: 1px white solid;
     background:blue;
