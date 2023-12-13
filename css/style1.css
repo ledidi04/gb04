@@ -136,3 +136,12 @@
 .gb p{
   text-align: justify;
 }
+
+.lienn a{
+  text-decoration: none;
+}
+
+footer i{
+  color: white;
+  font-size: 20px;
+}
