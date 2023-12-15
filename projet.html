@@ -28,7 +28,7 @@
 
         
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-lifht" aria-label="Fifth navbar example">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 " aria-label="Fifth navbar example">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="Logo Mockup 088.jpg" alt="" width="30" height="30" class="d-inline-block align-text-top" style="border-radius: 50px;">
@@ -41,17 +41,18 @@
               <div class="collapse navbar-collapse" id="navbarsExample05">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                    <a class="nav-link active" aria-current="page" href="index.html";> Accueil</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Lien</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Lien</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contacts</a>
+                    <a class="nav-link active " href="#" tabindex="-1" aria-disabled="true">Contacts</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Developpeurs</a>
+                    <a class="nav-link dropdown-toggle active" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Développeurs</a>
                     <ul class="dropdown-menu " aria-labelledby="dropdown05">
+                      <li><a class="dropdown-item " href="index.html">Le Didi</a></li>
                       <li><a class="dropdown-item " href="#">Djefferly</a></li>
                       <li><a class="dropdown-item " href="#">Jean Robert</a></li>
                       <li><a class="dropdown-item" href="#">Romane</a></li>
@@ -149,15 +150,15 @@
           </svg>
 
     </header>
-        
-<div class="container px-4 py-5">
+        <main class="bg-dark">
+<div class="container px-4 py-5 ">
     <h2 class="pb-2 border-bottom ">Nos Développeurs</h2>
 </div>
 
           <div class="slide-container swiper">
             <div class="slide-content">
                 <div class="card-wrapper swiper-wrapper">
-                    <div class="card swiper-slide">
+                    <div class="card swiper-slide" style="border-radius: 25px 25px 25px 25px;">
                         <div class="image-content">
                             <span class="overlay"></span>
 
@@ -173,28 +174,28 @@
                             <button class="button" href="index.html">Contacter</button>
                         </div>
                     </div>
-                    <div class="card swiper-slide">
+                    <div class="card swiper-slide" style="border-radius: 25px 25px 25px 25px;">
                         <div class="image-content">
                             <span class="overlay"></span>
 
                             <div class="card-image">
-                                <img src="images/profile2.jpg" alt="" class="card-img">
+                                <img src="img/20221204_132852.png" alt="" class="card-img">
                             </div>
                         </div>
 
-                        <div class="card-content">
+                        <div class="card-content" >
                             <h2 class="name">Djeferly</h2>
                             <p class="description">Sa      rigueur et son souci du détail se reflètent dans la qualité de son code, et il accorde une grande importance à l'écriture de logiciels bien structurés et maintenables.<br>SPCT </p>
 
                             <button class="button">Contacter</button>
                         </div>
                     </div>
-                    <div class="card swiper-slide">
+                    <div class="card swiper-slide" style="border-radius: 25px 25px 25px 25px;">
                         <div class="image-content">
                             <span class="overlay"></span>
 
                             <div class="card-image">
-                                <img src="images/profile3.jpg" alt="" class="card-img">
+                                <img src="c:\Users\Andro\Desktop\Bootstrap\Site1\HexaLogoMockup1FP2.jpg" alt="" class="card-img">
                             </div>
                         </div>
 
@@ -205,7 +206,7 @@
                             <button class="button">Contacter</button>
                         </div>
                     </div>
-                    <div class="card swiper-slide">
+                    <div class="card swiper-slide" style="border-radius: 25px 25px 25px 25px;">
                         <div class="image-content">
                             <span class="overlay"></span>
 
@@ -315,7 +316,7 @@
         
 
  <!-- Pagination -->
- <nav class="my-4" aria-label="...">
+ <nav class="" aria-label="...">
     <ul class="pagination pagination-circle justify-content-center">
      
       <li class="page-item "><a class="page-link" href="index.html">1</a></li>
@@ -328,13 +329,14 @@
   </nav>
 
 
+
  <!-- Footer -->
- <footer class="text-center   text-muted mt-5 " style="background-color: black; color: white; ">
+ <footer class="text-center   text-muted  bg-dark" style=" border-top: 1px white solid;">
     <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" style="background-color: rgba(24, 23, 23, 0.89);">
     <!-- Left -->
     <div class="me-5 d-none d-lg-block">
-      <span style="padding-left: 20px; color: white;">Restez connectez Avec Nous Sur:</span>
+      <span style="padding-left: 20px; color: white; ">Restez connectez Avec Nous Sur:</span>
     </div>
     <!-- Left -->
     
@@ -469,6 +471,7 @@
     </div>
     <!-- Copyright -->
     </footer>
+  </main>
 
 <!-- Swiper JS -->
 <script src="js/swiper-bundle.min.js"></script>
