@@ -15,10 +15,10 @@
 .slide-content{
   margin: 0 40px;
   overflow: hidden;
-  border-radius: 25px;
+  
 }
 .card{
-  border-radius: 25px;
+  border-radius: 25px 25px 25px 25px;
   background-color: #FFF;
   height: 80vh;
 }
@@ -35,6 +35,11 @@
   row-gap: 5px;
   padding: 25px 0;
 }
+
+.nav-link:hover{
+  color: blue;
+}
+
 .overlay{
   position: absolute;
   left: 0;
@@ -42,7 +47,7 @@
   height: 100%;
   width: 100%;
   background-color: #4070F4;
-  border-radius: 25px 25px 0 25px;
+  border-radius: 25px 25px 25px 25px;
 }
 .overlay::before,
 .overlay::after{
@@ -55,7 +60,7 @@
   background-color: #4070F4;
 }
 .overlay::after{
-  border-radius: 0 25px 0 0;
+  border-radius: 0 0 0 0;
   background-color: #FFF;
 }
 .card-image{
@@ -137,11 +142,20 @@
   text-align: justify;
 }
 
+
 .lienn a{
   text-decoration: none;
 }
 
-footer i{
+footer i,a{
   color: white;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+header a{
+  font-size: 18px;
+}
+
+main p,h2,h4,h1{
+  color: white;
 }
