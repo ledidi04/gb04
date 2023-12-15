@@ -10,185 +10,71 @@
     <!-- Google Fonts Roboto -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
     <!-- MDB -->
-    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- Custom styles -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
     <link rel="shortcut icon" href="Logo Mockup 088.jpg" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
       <!--Main Navigation-->
-  <header>
-    <style>
-      /* Carousel styling */
-      #introCarousel,
-      .carousel-inner,
-      .carousel-item,
-      .carousel-item.active {
-        height: 100vh;
-      }
-
-      .carousel-item:nth-child(1) {
-        background-image: url('05_Mockup_Logo.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-      }
-
-      .carousel-item:nth-child(2) {
-        background-image: url('HexaLogoMockup1FP2.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-      }
-
-      .carousel-item:nth-child(3) {
-        background-image: url('auto_repair_board_mockup_03.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-      }
-
-      /* Height for devices larger than 576px */
-      @media (min-width: 992px) {
-        #introCarousel {
-          margin-top: -58.59px;
-        }
-      }
-
-      .navbar .nav-link {
-        color: #fff !important;
-      }
-    </style>
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand navbar-dark d-none d-sm-block " style="z-index: 2000;">
-      <div class="container-fluid">
-        <!-- Navbar brand -->
-        <a class="navbar-brand nav-link" target="_blank" href="#">
-          <strong>Le Didi</strong>
-        </a>
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
-          aria-controls="navbarExample01"  aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarExample01">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 collapsed">
-            <li class="nav-item active">
-              <a class="nav-link" aria-current="page" href="#intro">Accueil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" rel="nofollow"
-                target="_blank">Profil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" target="_blank">Contactez-Nous</a>
-            </li>
-          </ul>
-
-          <ul class="navbar-nav list-inline">
-            <!-- Icons -->
-            <li class="">
-              <a class="nav-link" href="https://www.instagram.com/enilsonetienne/" rel="nofollow"
-                target="_blank">
-                <i class="fab fa-instagram"></i>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Fifth navbar example">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="PNG CHCL.jpg" alt="" width="30" height="auto" class="d-inline-block align-text-top">
+                Le Didi
               </a>
-            </li>
-            <li class="">
-              <a class="nav-link" href="https://web.facebook.com/joachim.gary.56/" rel="nofollow" target="_blank">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://twitter.com/Etienne_Enilson" rel="nofollow" target="_blank">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://wa.me/+50948829758" rel="nofollow" target="_blank">
-                <i class="fab fa-whatsapp"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Navbar -->
-
-
-
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
     
-    <!-- Carousel wrapper -->
-    <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
-        <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
-        <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
-      </ol>
-
-      <!-- Inner -->
-      <div class="carousel-inner">
-        <!-- Single item -->
-        <div class="carousel-item active">
-          <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);">
-            <div class="d-flex justify-content-center align-items-center h-100">
-              <div class="text-white text-center">
-                <h1 class="mb-3">Bienvenue Sur La Page</h1>
-                <h5 class="mb-4">La Meilleure Des Pages</h5>
-                <a class="btn btn-outline-light btn-dark btn-lg m-2" href="#"
-                  role="button" rel="nofollow" target="_blank">Plus D'infos</a>
-                <a class="btn btn-outline-light btn-lg m-2" href="login.html"
-                  target="_blank" role="button">Connectez-Vous</a>
+          <div class="collapse navbar-collapse" id="navbarsExample05">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="csb.html">CSB</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="chcl.html" tabindex="-1" aria-disabled="true">CHCL</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                <ul class="dropdown-menu " aria-labelledby="dropdown05">
+                  <li><a class="dropdown-item " href="#">Crestion Web</a></li>
+                  <li><a class="dropdown-item " href="#">Creation App</a></li>
+                  <li><a class="dropdown-item" href="#">Design</a></li>
+                  <li><a class="dropdown-item " href="#">Reseaux</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="col-md-3 text-lg-end ">
+                <a href="login.html" type="button" class="btn btn-outline-primary me-2">Login</a>
+                <a href="login.html" type="button" class="btn btn-primary" >Signup</a>
               </div>
-            </div>
+            
           </div>
         </div>
-
-        <!-- Single item -->
-        <div class="carousel-item">
-          <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
-            <div class="d-flex justify-content-center align-items-center h-100">
-              <div class="text-white text-center">
-                <h2>Enilson ET.</h2>
-              </div>
+      </nav>
+  
+      <header class="bg-dark gb " >
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center justify-content-center ">
+                <div class="col-lg-8 col-xl-7 col-xxl-6">
+                    <div class="my-5 text-center text-xl-start">
+                        <h1 class="display-5 fw-bolder text-white mb-2 ">Enilson ET.</h1>
+                        <p class="lead fw-normal text-white-50 mb-4">Notre projet a pour ambition de révolutionner l'éducation en la rendant accessible à tous, où que vous soyez. Nous souhaitons créer un environnement d'apprentissage interactif et stimulant.</p>
+                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="login.html">Se Connecter</a>
+                            <a class="btn btn-outline-light btn-lg px-4" href="#description">Pour Plus D'Infos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-auto my-5" src="c:\Users\Andro\Desktop\Bootstrap\Site1\Logo Mockup 088.jpg" alt="..." style="border-radius: 50%;" /></div>
             </div>
-          </div>
         </div>
-
-        <!-- Single item -->
-        <div class="carousel-item">
-          <div class="mask" style="
-                background: linear-gradient(
-                  45deg,
-                  rgba(29, 236, 197, 0.7),
-                  rgba(91, 14, 214, 0.7) 100%
-                );
-              ">
-            <div class="d-flex justify-content-center align-items-center h-100">
-              <div class="text-white text-center">
-                <h2>Allez Plus Loin Avec Nous</h2>
-                <a class="btn btn-outline-light btn-lg m-2"
-                  href="#" target="_blank" role="button">Apprendre Plus Sur Nous</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Inner -->
-
-      <!-- Controls -->
-      <a class="carousel-control-prev" href="#introCarousel" role="button" data-mdb-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#introCarousel" role="button" data-mdb-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    <!-- Carousel wrapper -->
-  </header>
-  <!--Main Navigation-->
+    </header>
 
   <!--Main layout-->
   <main class="mt-5">
@@ -386,44 +272,40 @@
   </main>
   <!--Main layout-->
 
-  <footer>
-    <!-- Footer -->
-<footer class="text-center text-light bg-dark text-muted">
-<!-- Section: Social media -->
-<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+   <!-- Footer -->
+ <footer class="text-center   text-muted  bg-dark" style=" border-top: 1px white solid;">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" style="background-color: rgba(24, 23, 23, 0.89);">
   <!-- Left -->
   <div class="me-5 d-none d-lg-block">
-    <span style="padding-left: 20px;">Restez connectez Avec Nous Sur:</span>
+    <span style="padding-left: 20px; color: white; ">Restez connectez Avec Nous Sur:</span>
   </div>
   <!-- Left -->
-
+  
   <!-- Right -->
-  <div>
+  <div class="lienn text-light">
     <a href="https://web.facebook.com/joachim.gary.56/" class="me-4 text-reset">
-      <i class="fab fa-facebook-f"></i>
+      <i class='bx bxl-facebook'></i>
     </a>
     <a href="https://twitter.com/Etienne_Enilson" class="me-4 text-reset">
-      <i class="fab fa-twitter"></i>
+      <i class='bx bxl-twitter'></i>
     </a>
-    <a href="https://wa.me/+50948829758" class="me-4 text-reset">
-      <i class="fab fa-whatsapp"></i>
+    <a href="https://wa.me/48829758" class="me-4 text-reset">
+      <i class="bx bxl-whatsapp"></i>
     </a>
-    <a href="https://www.instagram.com/enilsonetienne/" class="me-4 text-reset">
-      <i class="fab fa-instagram"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/enilson-etienne-438b8b29b/" class="me-4 text-reset">
-      <i class="fab fa-linkedin"></i>
+    <a href="https://www.instagram.com/enilsonetienne/" class="me-4 text-reset" >
+      <i class="bx bxl-instagram"></i>
     </a>
     <a href="" class="me-4 text-reset">
-      <i class="fab fa-github"></i>
+      <i class="bx bxl-github"></i>
     </a>
   </div>
   <!-- Right -->
-</section>
-<!-- Section: Social media -->
-
-<!-- Section: Links  -->
-<section class="">
+  </section>
+  <!-- Section: Social media -->
+  
+  <!-- Section: Links  -->
+  <section class="">
   <div class="container text-center text-md-start mt-5">
     <!-- Grid row -->
     <div class="row mt-3">
@@ -431,14 +313,14 @@
       <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
         <!-- Content -->
         <h6 class="text-uppercase fw-bold mb-4">
-          <i class="fas fa-gem me-3"></i>Le Didi Entreprise
+          <i class='bx bx-diamond' style="color: white;"></i>Le Didi Entreprise
         </h6>
         <p>
           Avec Le Didi c'est ultra Simple, Restez Connecter Pour les Mise A jour A venir
         </p>
       </div>
       <!-- Grid column -->
-
+  
       <!-- Grid column -->
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
         <!-- Links -->
@@ -446,20 +328,32 @@
           Formation
         </h6>
         <p>
-          <a href="#!" class="text-reset">Html & Css</a>
+          <a href="#" class="icon-link">
+              Html & Css
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+            </a>
         </p>
         <p>
-          <a href="#!" class="text-reset">JavaScript</a>
+          <a href="#" class="icon-link">
+              JavaScript
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+            </a>
         </p>
         <p>
-          <a href="#!" class="text-reset">Python</a>
+          <a href="#" class="icon-link">
+          Python
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+            </a>
         </p>
         <p>
-          <a href="#!" class="text-reset">My SQl</a>
+          <a href="#" class="icon-link">
+              My SQl
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+            </a>
         </p>
       </div>
       <!-- Grid column -->
-
+  
       <!-- Grid column -->
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
         <!-- Links -->
@@ -467,20 +361,32 @@
           Nos Liens
         </h6>
         <p>
-          <a href="#!" class="text-reset">Pricing</a>
+          <a href="index.html" class="icon-link">
+              Accueil
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+            </a>
         </p>
         <p>
-          <a href="#!" class="text-reset">Settings</a>
+          <a href="csb.html" class="icon-link">
+              CSB
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+            </a>
         </p>
         <p>
-          <a href="#!" class="text-reset">Orders</a>
+          <a href="csb.html" class="icon-link">
+              CHCL
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+            </a>
         </p>
         <p>
-          <a href="#!" class="text-reset">Help</a>
+          <a href="login.html" class="icon-link">
+              Se Connecter
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+            </a>
         </p>
       </div>
       <!-- Grid column -->
-
+  
       <!-- Grid column -->
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
         <!-- Links -->
@@ -488,7 +394,7 @@
         <p><i class="fas fa-home me-3"></i> Terrier-Rouge, Ht 1012</p>
         <p>
           <i class="fas fa-envelope me-3"></i>
-          enilson04@gmail.com
+          enilsonetienne04@gmail.com
         </p>
         <p><i class="fas fa-phone me-3"></i> +509 4268-2839</p>
         <p><i class="fas fa-print me-3"></i> +509 4882-9758</p>
@@ -497,20 +403,22 @@
     </div>
     <!-- Grid row -->
   </div>
-</section>
-<!-- Section: Links  -->
-
-<!-- Copyright -->
-<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.89);">
-  © 2023 Copyright:
+  </section>
+  <!-- Section: Links  -->
+  
+  <!-- Copyright -->
+  <div class="text-center text-light p-4" style="background-color: rgba(0, 0, 0, 0.89); border-top: 1px white solid;">
+  © 2021 Copyright:
   <a class="text-reset fw-bold" href="https://Le Didi.com/">LeDidi.com</a>
-</div>
-<!-- Copyright -->
-</footer>
+  </div>
+  <!-- Copyright -->
+  </footer>
 
-<!-- Footer -->
-</footer>
+
+
     <!-- MDB -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js\bootstrap.bundle.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

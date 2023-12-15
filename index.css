@@ -1,0 +1,41 @@
+.gb{ min-height:90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(HexaLogoMockup1FP2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.lienn a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  footer i,a{
+    color: white;
+    font-size: 18px;
+  }
+
+  h6{
+    color: white;
+  }
+  
+  footer p{
+    color: white;
+  }
+  
+  footer a{
+    color: white;
+  }
+
+  footer i{
+    color: white;
+  }
+  
+  footer a:hover{
+    color: white;
+  }
+
+  .icon-link {
+    display: inline-flex;
+    align-items: center;
+  }
