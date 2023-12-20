@@ -51,10 +51,6 @@ body{
     text-decoration: none;
   }
 
-  footer a:hover{
-    color: rgb(6, 255, 151);
-  }
-
   footer i{
     color: white;
   }
@@ -197,7 +193,6 @@ body{
     color: var(--clr);
 }
 
-img,
 span,
 label,
 input,
