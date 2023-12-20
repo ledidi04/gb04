@@ -62,10 +62,6 @@ body{
     align-items: center;
   }
 
-  .bx-right-arrow-alt{
-    
-  }
-
   .bx-right-arrow-alt:hover{
     padding-right: 10px;
   }
@@ -231,13 +227,6 @@ ion-icon { pointer-events: none; }
 
 .container1 { padding-inline: 15px; }
 
-
-
-.btn ion-icon {
-  font-size: 22px;
-  --ionicon-stroke-width: 40px;
-}
-
 .btn::before {
   content: "";
   position: absolute;
@@ -248,9 +237,7 @@ ion-icon { pointer-events: none; }
   transition: var(--transition);
 }
 
-.btn:is(:hover, :focus) { box-shadow: var(--shadow-2); }
 
-.btn:is(:hover, :focus)::before { opacity: 1; }
 
 .section { padding-block: var(--section-padding); }
 
