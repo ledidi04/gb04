@@ -5,9 +5,9 @@
     height: 80vh;
 }
 
-.gbb{
+header{
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(9d1c48_b35a058fae82402c94e730d9c99cd70f~mv2_d_4112_3088_s_4_2.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(34193891.webp);
     background-position: center;
     background-size: cover;
 }
