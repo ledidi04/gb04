@@ -1,7 +1,28 @@
-.gb{
-  width: 100%;
-  background-image: linear-gradient(rgba(218, 230, 230, 0.685),rgba(26, 1, 255, 0.76)), url('');
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,500;1,900&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.836),rgba(3, 14, 14, 0.836)), url('341713107_245128531379298_4735066782247854793_n.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+}
+
+hr{
+  color: white;
+}
+
+.aa:before, .aa:after {
+  content: "";
+  display: table-cell;
+  width: 50%;
+  background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=) repeat-x left center;
 }
